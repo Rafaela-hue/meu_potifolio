@@ -13,13 +13,13 @@ h1, h2, h5 {
     font-weight: 700;
 }
 
+footer a {
+    color: var(--cor-principal);
+}
 
-
-
-
-
-
-
+footer a:hover {
+    color: var(--cor-destaque);
+}
 
 body.dark-mode {
     background-color: rgba( 18, 18, 18, 0.853);
@@ -34,5 +34,11 @@ body.dark-mode {
     display: flex;
     background-color: rgb( 44, 62, 80);
     color: #fff;
+    border-radius: 150px;
+}
+
+.dark-mode-btn:hover {
+    background-color: #fff;
+    color: rgb(44, 62, 80);
     border-radius: 150px;
 }
